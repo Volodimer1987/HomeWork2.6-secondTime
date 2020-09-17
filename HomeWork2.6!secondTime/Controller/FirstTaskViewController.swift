@@ -35,12 +35,7 @@ class FirstTaskViewController: UIViewController,UITableViewDelegate,UITableViewD
         
         if let indexPath = tableVIew.indexPathForSelectedRow  {
         let destination = segue.destination as!  AllInfoFirstTaskViewController
-            
-            destination.phone = persons[indexPath.row].phoneNumber
-            destination.mail = persons[indexPath.row].imail
-            destination.name = persons[indexPath.row].name
-            destination.sername = persons[indexPath.row].sername
-    
+            destination.person = persons[indexPath.row]
     }
     
 

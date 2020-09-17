@@ -11,10 +11,7 @@ import UIKit
 class AllInfoFirstTaskViewController: UIViewController {
     @IBOutlet var bigNameSernameLabel: UILabel!
     
-    var name:String!
-    var sername:String!
-    var phone:String!
-    var mail:String!
+    var person:Person!
 
     @IBOutlet var PhoneLabel: UILabel!
     @IBOutlet var EmailLabel: UILabel!
@@ -22,10 +19,10 @@ class AllInfoFirstTaskViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        PhoneLabel.text = phone!
-        EmailLabel.text = mail!
+        PhoneLabel.text = person.phoneNumber
+        EmailLabel.text = person.imail
         
-        bigNameSernameLabel.text = "\(name!) \(sername!)"
+        bigNameSernameLabel.text = "\(person.name) \(person.sername)"
 
     }
 

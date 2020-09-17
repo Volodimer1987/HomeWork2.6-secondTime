@@ -17,6 +17,7 @@
 		68D3DFA1250D043200E0838F /* FirstTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D3DFA0250D043200E0838F /* FirstTaskViewController.swift */; };
 		68D3DFA3250D124900E0838F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D3DFA2250D124900E0838F /* DataManager.swift */; };
 		68D3DFA5250D1FB900E0838F /* AllInfoFirstTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D3DFA4250D1FB800E0838F /* AllInfoFirstTaskViewController.swift */; };
+		68FFE86C2513662C00BA1CC5 /* HeaderCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FFE86B2513662C00BA1CC5 /* HeaderCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		68D3DFA0250D043200E0838F /* FirstTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTaskViewController.swift; sourceTree = "<group>"; };
 		68D3DFA2250D124900E0838F /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		68D3DFA4250D1FB800E0838F /* AllInfoFirstTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllInfoFirstTaskViewController.swift; sourceTree = "<group>"; };
+		68FFE86B2513662C00BA1CC5 /* HeaderCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				68D3DFA0250D043200E0838F /* FirstTaskViewController.swift */,
 				68D3DF89250D00F900E0838F /* SecondTaskViewController.swift */,
 				68D3DFA4250D1FB800E0838F /* AllInfoFirstTaskViewController.swift */,
+				68FFE86B2513662C00BA1CC5 /* HeaderCellTableViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				68D3DFA3250D124900E0838F /* DataManager.swift in Sources */,
 				68D3DF8A250D00F900E0838F /* SecondTaskViewController.swift in Sources */,
 				68D3DF86250D00F900E0838F /* AppDelegate.swift in Sources */,
+				68FFE86C2513662C00BA1CC5 /* HeaderCellTableViewCell.swift in Sources */,
 				68D3DFA1250D043200E0838F /* FirstTaskViewController.swift in Sources */,
 				68D3DF88250D00F900E0838F /* SceneDelegate.swift in Sources */,
 				68D3DFA5250D1FB900E0838F /* AllInfoFirstTaskViewController.swift in Sources */,
